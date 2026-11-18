@@ -1,0 +1,38 @@
+{
+  "train": {
+    "gps": 208417,
+    "eligible": 134669,
+    "candidates": 1103043,
+    "fallbacks": 18230,
+    "correct": 81417,
+    "reverse_errors": 44329,
+    "hits_at_2": 131094,
+    "hits_at_4": 133787,
+    "hits_at_8": 134600,
+    "steps": 208204,
+    "continuous": 172347,
+    "changes": 48611,
+    "connected_changes": 12754,
+    "inference_s": 5.630724300000111,
+    "trip_mean_macro_f1": 0.43711118719849773,
+    "trip_mean_sequence_f1": 0.4587952525248541
+  },
+  "student_test": {
+    "gps": 19160,
+    "eligible": 13126,
+    "candidates": 113650,
+    "fallbacks": 0,
+    "correct": 7808,
+    "reverse_errors": 4741,
+    "hits_at_2": 12774,
+    "hits_at_4": 13040,
+    "hits_at_8": 13122,
+    "steps": 19148,
+    "continuous": 15705,
+    "changes": 4844,
+    "connected_changes": 1401,
+    "inference_s": 0.42056479999973817,
+    "trip_mean_macro_f1": 0.4542287091215654,
+    "trip_mean_sequence_f1": 0.4799573000245336
+  }
+}

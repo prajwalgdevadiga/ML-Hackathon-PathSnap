@@ -1,0 +1,15 @@
+{
+  "scale_m": 8,
+  "selection": "maximum mean trip sequence F1 on training out-of-fold emissions",
+  "scales_tested": [
+    8,
+    20,
+    45
+  ],
+  "gap_seconds": 30,
+  "change_penalty": 0.25,
+  "bridge_extra_penalty": 0.75,
+  "u_turn_extra_penalty": 1.5,
+  "exit_log_weight": -3,
+  "backward_tolerance_m": 5
+}

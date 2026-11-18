@@ -1,0 +1,199 @@
+{
+  "seed": 352,
+  "sklearn": "1.6.1",
+  "python": "3.13.5",
+  "numpy": "2.1.3",
+  "algorithms": {
+    "logistic": {
+      "parameters": {
+        "memory": "None",
+        "transform_input": "None",
+        "verbose": "False",
+        "standardscaler": "StandardScaler()",
+        "logisticregression": "LogisticRegression(C=1, max_iter=250, random_state=352)",
+        "standardscaler__copy": "True",
+        "standardscaler__with_mean": "True",
+        "standardscaler__with_std": "True",
+        "logisticregression__C": "1",
+        "logisticregression__class_weight": "None",
+        "logisticregression__dual": "False",
+        "logisticregression__fit_intercept": "True",
+        "logisticregression__intercept_scaling": "1",
+        "logisticregression__l1_ratio": "None",
+        "logisticregression__max_iter": "250",
+        "logisticregression__multi_class": "deprecated",
+        "logisticregression__n_jobs": "None",
+        "logisticregression__penalty": "l2",
+        "logisticregression__random_state": "352",
+        "logisticregression__solver": "lbfgs",
+        "logisticregression__tol": "0.0001",
+        "logisticregression__verbose": "0",
+        "logisticregression__warm_start": "False"
+      },
+      "features": [
+        "distance_m",
+        "distance_above_best_m",
+        "arc_length_m",
+        "directed_fraction",
+        "heading_cosine",
+        "heading_available",
+        "speed_mps",
+        "speed_available"
+      ]
+    },
+    "gaussian_nb": {
+      "parameters": {
+        "memory": "None",
+        "transform_input": "None",
+        "verbose": "False",
+        "standardscaler": "StandardScaler()",
+        "gaussiannb": "GaussianNB(var_smoothing=1e-08)",
+        "standardscaler__copy": "True",
+        "standardscaler__with_mean": "True",
+        "standardscaler__with_std": "True",
+        "gaussiannb__priors": "None",
+        "gaussiannb__var_smoothing": "1e-08"
+      },
+      "features": [
+        "distance_m",
+        "distance_above_best_m",
+        "arc_length_m",
+        "directed_fraction",
+        "heading_cosine",
+        "heading_available",
+        "speed_mps",
+        "speed_available"
+      ]
+    },
+    "tree": {
+      "parameters": {
+        "ccp_alpha": "0.0",
+        "class_weight": "None",
+        "criterion": "gini",
+        "max_depth": "12",
+        "max_features": "None",
+        "max_leaf_nodes": "None",
+        "min_impurity_decrease": "0.0",
+        "min_samples_leaf": "30",
+        "min_samples_split": "2",
+        "min_weight_fraction_leaf": "0.0",
+        "monotonic_cst": "None",
+        "random_state": "352",
+        "splitter": "best"
+      },
+      "features": [
+        "distance_m",
+        "distance_above_best_m",
+        "arc_length_m",
+        "directed_fraction",
+        "heading_cosine",
+        "heading_available",
+        "speed_mps",
+        "speed_available"
+      ]
+    },
+    "forest": {
+      "parameters": {
+        "bootstrap": "True",
+        "ccp_alpha": "0.0",
+        "class_weight": "None",
+        "criterion": "gini",
+        "max_depth": "14",
+        "max_features": "sqrt",
+        "max_leaf_nodes": "None",
+        "max_samples": "0.5",
+        "min_impurity_decrease": "0.0",
+        "min_samples_leaf": "12",
+        "min_samples_split": "2",
+        "min_weight_fraction_leaf": "0.0",
+        "monotonic_cst": "None",
+        "n_estimators": "48",
+        "n_jobs": "3",
+        "oob_score": "False",
+        "random_state": "352",
+        "verbose": "0",
+        "warm_start": "False"
+      },
+      "features": [
+        "distance_m",
+        "distance_above_best_m",
+        "arc_length_m",
+        "directed_fraction",
+        "heading_cosine",
+        "heading_available",
+        "speed_mps",
+        "speed_available"
+      ]
+    },
+    "hist_boost": {
+      "parameters": {
+        "categorical_features": "from_dtype",
+        "class_weight": "None",
+        "early_stopping": "False",
+        "interaction_cst": "None",
+        "l2_regularization": "1",
+        "learning_rate": "0.1",
+        "loss": "log_loss",
+        "max_bins": "255",
+        "max_depth": "None",
+        "max_features": "1.0",
+        "max_iter": "75",
+        "max_leaf_nodes": "15",
+        "min_samples_leaf": "30",
+        "monotonic_cst": "None",
+        "n_iter_no_change": "10",
+        "random_state": "352",
+        "scoring": "loss",
+        "tol": "1e-07",
+        "validation_fraction": "0.1",
+        "verbose": "0",
+        "warm_start": "False"
+      },
+      "features": [
+        "distance_m",
+        "distance_above_best_m",
+        "arc_length_m",
+        "directed_fraction",
+        "heading_cosine",
+        "heading_available",
+        "speed_mps",
+        "speed_available"
+      ]
+    },
+    "logistic_no_heading": {
+      "parameters": {
+        "memory": "None",
+        "transform_input": "None",
+        "verbose": "False",
+        "standardscaler": "StandardScaler()",
+        "logisticregression": "LogisticRegression(C=1, max_iter=250, random_state=352)",
+        "standardscaler__copy": "True",
+        "standardscaler__with_mean": "True",
+        "standardscaler__with_std": "True",
+        "logisticregression__C": "1",
+        "logisticregression__class_weight": "None",
+        "logisticregression__dual": "False",
+        "logisticregression__fit_intercept": "True",
+        "logisticregression__intercept_scaling": "1",
+        "logisticregression__l1_ratio": "None",
+        "logisticregression__max_iter": "250",
+        "logisticregression__multi_class": "deprecated",
+        "logisticregression__n_jobs": "None",
+        "logisticregression__penalty": "l2",
+        "logisticregression__random_state": "352",
+        "logisticregression__solver": "lbfgs",
+        "logisticregression__tol": "0.0001",
+        "logisticregression__verbose": "0",
+        "logisticregression__warm_start": "False"
+      },
+      "features": [
+        "distance_m",
+        "distance_above_best_m",
+        "arc_length_m",
+        "directed_fraction",
+        "speed_mps",
+        "speed_available"
+      ]
+    }
+  }
+}

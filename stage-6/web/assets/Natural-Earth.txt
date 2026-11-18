@@ -1,0 +1,3 @@
+Natural Earth 1:110m Admin 0 Countries, v5.1.2. Public domain.
+https://www.naturalearthdata.com/about/terms-of-use/
+Only geometry is bundled.

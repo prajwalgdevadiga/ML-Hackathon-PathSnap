@@ -1,0 +1,8 @@
+inputs/*
+!inputs/README.md
+.venv/
+work/
+__pycache__/
+*.pyc
+/receiving.log
+/evaluator-receiving.log

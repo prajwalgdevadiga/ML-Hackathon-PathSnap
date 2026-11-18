@@ -1,0 +1,32 @@
+INFO:     Started server process [18348]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18765 (Press CTRL+C to quit)
+INFO:     127.0.0.1:59503 - "GET /api/trips HTTP/1.1" 200
+INFO:     127.0.0.1:59767 - "GET / HTTP/1.1" 200
+INFO:     127.0.0.1:59767 - "GET /assets/leaflet.css HTTP/1.1" 200
+INFO:     127.0.0.1:50060 - "GET /assets/leaflet.js HTTP/1.1" 200
+INFO:     127.0.0.1:51235 - "GET /assets/app.css HTTP/1.1" 200
+INFO:     127.0.0.1:52408 - "GET /assets/app.js HTTP/1.1" 200
+INFO:     127.0.0.1:52408 - "GET /api/trips HTTP/1.1" 200
+INFO:     127.0.0.1:50060 - "GET /assets/world.geojson HTTP/1.1" 200
+INFO:     RESULT id=89df9652fd02 client=127.0.0.1 trip=00000000 correct=2218/2284 inference_ms=200
+INFO:     127.0.0.1:50060 - "POST /api/trips/00000000/predict HTTP/1.1" 200
+INFO:     RESULT id=b30ee8f61ffd client=127.0.0.1 trip=00000007 correct=1198/1198 inference_ms=77
+INFO:     127.0.0.1:50060 - "POST /api/trips/00000007/predict HTTP/1.1" 200
+INFO:     RESULT id=bd57db54474b client=127.0.0.1 trip=00000009 correct=562/594 inference_ms=92
+INFO:     127.0.0.1:50060 - "POST /api/trips/00000009/predict HTTP/1.1" 200
+INFO:     RESULT id=cacb9c7d01d9 client=127.0.0.1 trip=00000040 correct=2505/2549 inference_ms=199
+INFO:     127.0.0.1:50060 - "POST /api/trips/00000040/predict HTTP/1.1" 200
+INFO:     RESULT id=08608bb73752 client=127.0.0.1 trip=00000052 correct=200/200 inference_ms=24
+INFO:     127.0.0.1:50060 - "POST /api/trips/00000052/predict HTTP/1.1" 200
+INFO:     RESULT id=aa1edeefd680 client=127.0.0.1 trip=00000056 correct=1986/2000 inference_ms=309
+INFO:     127.0.0.1:50060 - "POST /api/trips/00000056/predict HTTP/1.1" 200
+INFO:     RESULT id=d0995ad437d7 client=127.0.0.1 trip=00000065 correct=383/420 inference_ms=66
+INFO:     127.0.0.1:50060 - "POST /api/trips/00000065/predict HTTP/1.1" 200
+INFO:     RESULT id=c044160058c3 client=127.0.0.1 trip=00000076 correct=916/922 inference_ms=153
+INFO:     127.0.0.1:50060 - "POST /api/trips/00000076/predict HTTP/1.1" 200
+INFO:     RESULT id=44c84cb3be86 client=127.0.0.1 trip=00000077 correct=2123/2331 inference_ms=289
+INFO:     127.0.0.1:50060 - "POST /api/trips/00000077/predict HTTP/1.1" 200
+INFO:     RESULT id=cac178f48280 client=127.0.0.1 trip=00000091 correct=584/628 inference_ms=72
+INFO:     127.0.0.1:50060 - "POST /api/trips/00000091/predict HTTP/1.1" 200

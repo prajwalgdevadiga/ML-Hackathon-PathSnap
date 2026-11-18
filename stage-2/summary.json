@@ -1,0 +1,23 @@
+{
+  "typical_trip": "00000083",
+  "gap_trip": "00000090",
+  "median_residual": 5.673321723937988,
+  "p95_residual": 146.39646911621094,
+  "max_residual": 2200.59814453125,
+  "totals": {
+    "gps": 208417,
+    "retained": 134669,
+    "residual_over_25m": 27231,
+    "margin_under_3m": 62231,
+    "boundary_points": 268,
+    "gap_over_30s": 133,
+    "route_breaks": 13,
+    "nearest_disagrees": 10377,
+    "retained_15m_5m": 118575,
+    "retained_40m_1m": 151698,
+    "isolated_nodes": 0
+  },
+  "disconnected_graphs": 79,
+  "trips_with_gaps": 28,
+  "trips_with_route_breaks": 10
+}
